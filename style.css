@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(121, 121, 121);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset {
+    border: none;
+    background-color: rgb(180, 179, 179);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+fieldset > div {
+    color: red;
+    font-size: small;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.red {
+    max-width: fit-content;
+    padding: 5px;
+    background-color: red;
+    color: white;
+}
+
+.lightGreen {
+    max-width: fit-content;
+    padding: 5px;
+    background-color: lightgreen;
+    color: rgb(0, 0, 0);
+}
+
+.green {
+    max-width: fit-content;
+    padding: 5px;
+    background-color: green;
+    color: white;
+}
